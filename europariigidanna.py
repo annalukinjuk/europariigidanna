@@ -73,9 +73,7 @@ for country in Countries:
 
 pealinn={}
 pealinn=dict()
-pealinn["Russia"]="Moscow"
-pealinn["Ukraine"] = "Kiev"
-pealinn["USA"] = "Washington"
+
 pealinn["Belgia"] = "Brüssel"
 pealinn["Saksamaa"] = "Berliin"
 pealinn["Prantsusmaa"] = "Pariis"
@@ -98,14 +96,16 @@ pealinn["Slovakkia"] = "Bratislava"
 pealinn["Sloveenia"] = "Ljubljana"
 pealinn["Tšehhi"] = "Praha"
 pealinn["Ungari"] = "Budapest"
-pealinn["Küpros"] = "Vilnius"
-pealinn["Leedu"] = "Nikosia"
-pealinn= ["Russia", "France", "USA", "Russia"]
+pealinn["Küpros"] = "Nikosia"
+pealinn["Bulgaaria"] = "Sofia"
+pealinn["Rumeenia"] = "Bukarest"
+pealinn["Horvaatia"] = "Zagreb"
+pealinn= ["Belgia","Saksamaa","Prantsusmaa","Itaalia","Luksemburg","Holland","Taani","Iirimaa","Kreeka","Portugal","Hispaania","Soome","Austria","Rootsi","Eesti","Läti","Malta","Poola","Slovakkia","Sloveenia","Tšehhi","Küpros","Ungari","Bulgaaria","Rumeenia","Horvaatia"       ]
 for country in Countries:
  if country in Capitals:
-    print("linnade pealinn on" + country + ': ' + Capitals[country])
+    print("linnude pealinn on" + country + ': ' + Capitals[country])
  else:
-    print('В базе нет страны c названием ' + country)
+    print( + country)
 
 while 1:
-    print("\n1 - Ввести город или страну. \n2 - Добавить в список город или страну. \n3 - Исравить ошибку в списке. \n4 - Проверь себя.")
+    print("\n1 - siseta riik \n2 - Добавить в список город или страну. \n3 - Исравить ошибку в списке. \n4 - Проверь себя.")
