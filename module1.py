@@ -1,4 +1,4 @@
-def eu_riigid(d:dict, v:int):
+def europaliit(d:dict, v:int):
     keys_list=(list(d.keys()))
     values_list=(list(d.values()))
     if v=="1":

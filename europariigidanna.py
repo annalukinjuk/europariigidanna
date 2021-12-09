@@ -73,7 +73,6 @@ for country in Countries:
 
 pealinn={}
 pealinn=dict()
-
 pealinn["Belgia"] = "Brüssel"
 pealinn["Saksamaa"] = "Berliin"
 pealinn["Prantsusmaa"] = "Pariis"
@@ -100,7 +99,8 @@ pealinn["Küpros"] = "Nikosia"
 pealinn["Bulgaaria"] = "Sofia"
 pealinn["Rumeenia"] = "Bukarest"
 pealinn["Horvaatia"] = "Zagreb"
-pealinn= ["Belgia","Saksamaa","Prantsusmaa","Itaalia","Luksemburg","Holland","Taani","Iirimaa","Kreeka","Portugal","Hispaania","Soome","Austria","Rootsi","Eesti","Läti","Malta","Poola","Slovakkia","Sloveenia","Tšehhi","Küpros","Ungari","Bulgaaria","Rumeenia","Horvaatia"       ]
+pealinn= ["Brüssel", "Berliin","Pariis","Rooma","Luxembourg","Amsterdam","Kopenhaagen","Dublin","Ateena","Lissabon","Madrid","Helsingi","Viin", "Stockholm","Tallinn", "Riia","Valletta","Varssavi","Bratislava",   ]
+europaliit=["Belgia","Saksamaa","Prantsusmaa","Itaalia","Luksemburg","Holland","Taani","Iirimaa","Kreeka","Portugal","Hispaania","Soome","Austria","Rootsi","Eesti","Läti","Malta","Poola","Slovakkia","Sloveenia","Tšehhi","Küpros","Ungari","Bulgaaria","Rumeenia","Horvaatia"]
 for country in Countries:
  if country in Capitals:
     print("linnude pealinn on" + country + ': ' + Capitals[country])
