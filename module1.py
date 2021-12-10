@@ -17,6 +17,7 @@ def europaliit(d:dict, v:int):
         print("Страна -", country ,"<-->", "Cтолица -", a)
     return
 
+
 def new_key_value(d:dict):
     new={}
     country=(input("Введите страну: ")).capitalize()
