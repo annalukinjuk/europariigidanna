@@ -37,26 +37,15 @@ for country in europaliit:
     else:
         print(country)
 
-valik=input("\n1 - siseta riik \n2 - siseta listis eu liitu linnud ja pealinn. \n3 - listis viga soritama \n4 - kas oled õige?.")
-if valik=="1":
-    try:
 
 while 1:
     print("\nsiseta riik - A \nsiseta listis eu liitu linnud ja pealinn - B \nlistis viga soritama - C \nkas oled õige? - D")
     valik=input("vajuta nuppu:  ")
-
     if valik()=="A":
         country=input("siseta riik eu liitust:   ")
+        for country in europaliit:
+            if country in europaliit:
+                print(f"linnude pealinn on {country},{pealinn}")
+        else:
+            print(country)
 
-    elif read_key()=="B":
-      0000,0
-        min_palk, kellel=minimum(palgad,inimesed)
-        print("minimaalne palk ==> ", min_palk, " Kellel ==> ",kellel)
-
-    elif read_key()=="C":
-        max_palk, kellel=maksimum(palgad,inimesed)
-        print("maksimaalne palk ==> ", max_palk, " Kellel ==> ",kellel)
-
-    elif read_key()=="V":
-        lisa(palgad,inimesed)
-        print("siseta info  ", ans, "kellel==>")
